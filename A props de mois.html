@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<title>maket-Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylle2.css">
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.ligne-padding img {margin-bottom: 12px}
+/* sidebar to 120px */
+.sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="main">
+    <div class="top-bar">
+        <div class="ligne  light-grey">
+          <div class="col s3">
+            <a href="home.html" class="button block">Home</a>
+          </div>
+          <div class="col s3">
+            <a href="Accueil.html" class="button block">Accueil</a>
+          </div>
+          <div class="col s3">
+            <a href="A props de mois.html" class="button block">A props de mois</a>
+          </div>
+         
+        </div>
+      </div>
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="sidebar bar-block small hide-small center">
+  <!-- Avatar image in top left corner -->
+  <img src="img/zied.jpg" style="width:100%">
+  <a href="#" class="bar-item button padding-large main">
+    <i class="fa fa-home xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#PRÉSENTATION" class="bar-item button padding-large hover-black">
+    <i class="fa fa-user xxlarge"></i>
+    <p>PRÉSENTATION</p>
+  </a>
+  <a href="#photos" class="bar-item button padding-large hover-black">
+    <i class="fa fa-eye xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#CONTACT" class="bar-item button padding-large hover-black">
+    <i class="fa fa-envelope xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="top-bar hide-large hide-medium" id="myNavbar">
+  <div class="bar main opacity hover-opacity-off center small">
+    <a href="#" class="bar-item button" style="width:25% !important">HOME</a>
+    <a href="#about" class="bar-item button" style="width:25% !important">Accueil/a>
+    <a href="#photos" class="bar-item button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="bar-item button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="container padding-32 center main" id="home">
+    <h1 class="jumbo"><span class="hide-small">I'm</span> Zied Amdouni.</h1>
+    <p>Développeur  Full Stack à Private
+      .</p>
+    <section>
+      <img class="mySlides" src="img/img_band_la.jpg"
+      style="width:100%">
+      <img class="mySlides" src="img/img_band_ny.jpg"
+      style="width:100%">
+      <img class="mySlides" src="img/img_band_chicago.jpg"
+      style="width:100%">
+    </section>
+        
+  </header>
+
+  
+
+ <!-- About Section -->
+ <div class="content justify text-grey padding-64" id="PRÉSENTATION">
+  <h2 class="text-light-grey">PRÉSENTATION
+  </h2>
+  <hr style="width:200px" class="opacity">
+  <p>Jeune freelancer ambitieux et motivé, je mets tout mon savoir faire ainsi que ma bonne humeur au service de vos projets.
+    J'ai de très bonnes compétences dans le milieu du web en ayant mené à bien de nombreux projets:
+    Développement Full-Stack de sites responsive, applications "temps-réel", boutiques ou simples sites vitrine.
+    J'ai également de bonnes connaissances en développement de logiciels.</p>
+  <h3 class="padding-16 text-light-grey">Les technos que je maîtrise pleinement :
+  </h3>
+  <p class="wide">HTML</p>
+  <div class="white">
+    <div class="dark-grey" style="height:28px;width:95%"></div>
+  </div>
+  <p class="wide">CSS</p>
+  <div class="white">
+    <div class="dark-grey" style="height:28px;width:85%"></div>
+  </div>
+  <p class="wide">JavaScript</p>
+  <div class="white">
+    <div class="dark-grey" style="height:28px;width:80%"></div>
+  </div><br>
+  <p class="wide">JavaScript</p>
+  <div class="white">
+    <div class="dark-grey" style="height:28px;width:80%"></div>
+  </div><br><p class="wide">PHP</p>
+  <div class="white">
+    <div class="dark-grey" style="height:28px;width:80%"></div>
+  </div><br><p class="wide">Java</p>
+  <div class="white">
+    <div class="dark-grey" style="height:28px;width:80%"></div>
+  </div><br>
+  <p class="wide">SQL</p>
+  <div class="white">
+    <div class="dark-grey" style="height:28px;width:80%"></div>
+  </div><br>
+  <div class="row center padding-16 section light-grey">
+    <div class="quarter section">
+      <span class="xlarge">6+</span><br>
+      certification
+    </div>
+    <div class="quarter section">
+      <span class="xlarge">15+</span><br>
+      Projects Soscial
+    </div>
+    <div class="quarter section">
+      <span class="xlarge">5+</span><br>
+      Clients satisfaits
+    </div>
+    <div class="quarter section">
+      <span class="xlarge">10+</span><br>
+      Formation
+    </div>
+  </div>
+
+  <button class="button light-grey padding-large section">
+    <i class="fa fa-download"><a href="https://github.com/ziedamdouni/Cv-Zied-Amdouni.git" style="text-decoration:none">Download Resume</a></i> 
+  </button>
+  
+ 
+    
+    
+    
+  
+  <!-- Portfolio Section -->
+  <div class="padding-64 content" id="photos">
+    <h2 class="text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="opacity">
+
+    <!-- Grid for photos -->
+    <div class="ligne-padding" style="margin:0 -16px">
+      <div class="half">
+        <img src="img/img_band_ny.jpg" style="width:100%">
+        <img src="img/img_band_la.jpg" style="width:100%">
+        <img src="img/img_band_chicago.jpg" style="width:100%">
+      </div>
+
+      <div class="half">
+        <img src="img/codeur.png" style="width:100%">
+        <img src="img/groupe.jpg" style="width:100%">
+        <img src="img/download.png" style="width:100%">
+        <img src="img_band_la.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="padding-64 content text-grey" id="contact">
+    <h2 class="text-light-grey"><p>Contact:</p></h2>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="input padding" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="input padding" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="input padding" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="input padding" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="button light-grey padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i>Envoyer
+        </button>
+      </p>
+    </form>
+    
+    
+   
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          
+
+          <div class="col-xs-6 col-md-3">
+            <h2 class="text-light-grey">Contact Me</h2>
+            <ul class="footer-links">
+              <li>La Manouba,Khaled Ben Walied</li>
+              <li>Phone: +216 90 39 20 95></li>
+              <li>Email: ziedamdounip4@gmail.com</li>
+              
+            </ul>
+          </div>
+          
+        </div>
+        <hr>
+      </div>
+      
+          <div class="col-md-4 col-sm-6 col-xs-12 site-footer">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/zziied/"style="text-decoration:none"><i class="fa fa-facebook">f</i></a></li>
+              <li><a class="twitter" href="https://twitter.com/home?lang=fr"style="text-decoration:none"><i class="fa fa-twitter">t</i></a></li>
+              <li><a class="dribbble" href="https://mail.google.com/mail/u/0/#inbox"style="text-decoration:none"><i class="fa fa-google+">G+</i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/in/zied-amdouni-752b9b137/"style="text-decoration:none"><i class="fa fa-linkedin">L</i></a></li>   
+            </ul>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                
+                  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right site-footer"></i>To the top</a>
+    
+                </p>
+              </div>
+    
+        </div>
+      </div>
+</footer>
+    </div>
+    
+    
+  </footer>
+  <!-- End footer -->
+  
+
+<!-- END PAGE CONTENT -->
+</div>
+<script>
+  // Automatic Slideshow - change image every 3 seconds
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+  }
+  </script>
+</body>
+</html>
